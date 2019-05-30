@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>threeJS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        canvas {
+            height: 50%;
+            width: 50%;
+        }
+
+        .writing {
+            color: #ffffff;
+        }
+
+        @media screen and (min-width: 1168px) {
+            #btn1 {
+                padding: 20px;
+                width: 40%;
+                margin-left: 130px;
+            }
+
+            #btn2 {
+                padding: 20px;
+                width: 40%;
+                margin-left: 160px;
+            }
+        }
+    </style>
+</head>
+
+<body style="background: #000000">
+    <h1 class="writing" style="text-align: center;">Animation Using ThreeJS</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <button id="btn1" class="btn btn-primary"><i class="fas fa-play"></i> Play Music</button>
+        </div>
+        <div class="col-md-6">
+            <button id="btn2" class="btn btn-primary"><i class="fas fa-stop-circle"></i> Stop Music</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
